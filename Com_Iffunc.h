@@ -1,9 +1,10 @@
 #ifndef _COM_IFFUNC_H_
 #define _COM_IFFUNC_H_
 
+//Code for testing
 typedef enum
 {
-	DRV_SUCCESS,							// (= 0)This function finishes successfully.
+	DRV_SUCCUESS,							// (= 0)This function finishes successfully.
 	DRV_ERR_INVALID_DRIVER_VERSION,			// (= 1)The version of the driver is invalid.
 	DRV_ERR_INVALID_FIRMWARE_VERSION,		// (= 2)The version of the firmware is invalid.
 	DRV_ERR_CONNECTION_ALREADY_OPENED,		// (= 3)The connection is opened already.
